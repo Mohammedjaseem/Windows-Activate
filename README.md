@@ -1,5 +1,7 @@
 # Windows-Activate
 
-slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-slmgr.vbs /skms kms.teevee.asia
-slmgr.vbs /ato
+sc config LicenseManager start= auto & net start LicenseManager
+sc config wuauserv start= auto & net start wuauserv
+changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
+exit
+exit
