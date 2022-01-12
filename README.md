@@ -1,4 +1,4 @@
-# Windows-Activate
+# Activate Windows using cmd 
 
 Step 1: <br>
 My code update ( you copy and  right click in CMD run with admin): <br>
