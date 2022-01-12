@@ -1,8 +1,7 @@
 # Activate Windows using cmd 
 
 Step 1: <br>
-My code update ( you copy and  right click in CMD run with admin): <br>
-
+Copy this code and right click in CMD run wwith admin <br>
 
 sc config LicenseManager start= auto & net start LicenseManager <br>
 sc config wuauserv start= auto & net start wuauserv <br>
